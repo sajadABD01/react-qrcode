@@ -24,7 +24,7 @@ export const Home = () => {
 
         setPending(true)
         const studentData = { name, age, address, birthday, gender, phone, university, email, average }
-        fetch('http://localhost:5000/add', {
+        fetch('https://react-qrcode.onrender.com/add', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(studentData)

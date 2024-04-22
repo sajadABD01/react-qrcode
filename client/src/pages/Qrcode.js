@@ -5,7 +5,7 @@ export const Qrcode = () => {
 
     const { state } = useLocation()
     const { photoFileName } = state
-    const imageUrl = "http://localhost:5000/images/" + photoFileName
+    const imageUrl = "https://react-qrcode.onrender.com/images/" + photoFileName
     console.log(imageUrl)
     return (
         <body>

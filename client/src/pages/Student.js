@@ -13,7 +13,7 @@ export const Student = () => {
 
   //ارسال طلب للسيرفر لجلب بيانات المستخدم حسب اليدي 
   useEffect(() => {
-    fetch(`http://localhost:5000/students/${id}`)
+    fetch(`https://react-qrcode.onrender.com/students/${id}`)
       .then(res => res.json())
       .then(data => setData(data))
       .catch(err => console.log(err))
