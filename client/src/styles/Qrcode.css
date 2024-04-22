@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffffff;
+}
+
+
+.container-qr{
+    width: 300px;
+    background: #9d9a9a;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
+    padding: 20px;
+}
+.wrapper-qr{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+} 

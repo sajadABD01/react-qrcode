@@ -1,0 +1,59 @@
+/* TenInputsTable.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  input {
+    width: calc(100% - 16px); /* Adjust input width */
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #6c63ff;
+  }
+  
+  button {
+    margin-top: 20px; /* Add space between the table and the button */
+    padding: 10px 20px; /* Apply padding to the button */
+    border: none;
+    border-radius: 4px;
+    background-color: #6c63ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5640e0; /* Darken the background color on hover */
+  }
+  
+  .custom-label {
+    display: block;
+    margin-top: 10px;
+    color: red;
+  }
+  
