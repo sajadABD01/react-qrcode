@@ -95,7 +95,7 @@ app.post('/add', (req, res) => {
                             const data = JSON.stringify(result)
                             const jsonData = JSON.parse(data)
                             const userID = jsonData[0].id
-                            const urlId = process.env.FRONTEND_URL || 'http://localhost:3000/students/' + userID
+                            const urlId = process.env.FRONTEND_URL + userID || 'http://localhost:3000/students/' + userID
                             const qrcodeFileName = jsonData[0].name + Date.now()+ '.png'
                             const imagesPath = __dirname + '/public/images/'
 
